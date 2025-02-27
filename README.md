@@ -1,3 +1,3 @@
 # Leetcode-Exercise
 
-### Frequency 1/2 questions per day 
+### Frequency: 1 / 2 questions per day 

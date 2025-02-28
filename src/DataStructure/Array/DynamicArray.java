@@ -5,8 +5,8 @@ import java.util.function.Consumer;
 
 public class DynamicArray  {
 
-    private int size=0; // 逻辑大小
-    private int capacity=8;// 容量
+    private int size=0; // 逻辑大小 Logic capacity -- real size, 1,2,3,,,etc
+    private int capacity=8;// 容量 //
     private int[] array = {}; //new int[capacity];
 
 
@@ -24,7 +24,7 @@ public class DynamicArray  {
             System.arraycopy(array, index, array, index+1, size-index);
             array[index] = element;
             size++;
-        } else if (index == size) {// 同等 allLast 情况
+        } else if (index == size) {// 同等 allLast 情况  same as addLast method logic
             array[size] = element;
             size++;
         }

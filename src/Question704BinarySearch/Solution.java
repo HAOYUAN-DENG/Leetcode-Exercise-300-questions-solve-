@@ -15,8 +15,10 @@ public class Solution {
             int middleIndex = i + j >>> 1;
             if (nums[middleIndex] > target) {
                 j = middleIndex - 1;
+
             } else if (nums[middleIndex] < target) {
                 i = middleIndex + 1;
+
             } else {
                 return middleIndex;
             }

@@ -9,8 +9,6 @@ import java.util.function.Consumer;
 public class SinglyLinkedList implements Iterable<Integer> { //整体
     Node head = null;// 头节点第一个index[0]
 
-
-
     /*
      * Node class
      * */

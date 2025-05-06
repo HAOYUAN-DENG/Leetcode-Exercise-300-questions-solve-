@@ -3,8 +3,6 @@ package DataStructure.Array;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 
